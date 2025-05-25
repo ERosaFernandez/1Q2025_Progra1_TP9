@@ -21,4 +21,9 @@ typedef struct {
 	uint8_t b7		:1	;
 } Puerto;
 
+typedef struct {
+	Puerto * B;
+	Puerto * A;
+} Puerto_D;
+
 #endif /* EJERCICIO5_PUERTOS_H_ */
